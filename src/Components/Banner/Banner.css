@@ -1,0 +1,30 @@
+.root {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(70,71,62);
+    border-radius: 0px 0px 10px 10px;
+    border-style: groove;
+    border-width: 0px 1px 3px 1px;
+}
+
+.Banner {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    text-align: left;
+}
+
+.Banner > p {
+    margin-bottom: 0em;
+}
+
+.font-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    text-shadow: 2px 2px gray;
+}
+
+.github {
+    width: 3em;
+    height: 3em;
+}

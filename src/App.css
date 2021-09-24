@@ -1,0 +1,10 @@
+.App {
+    flex-grow: 1;
+    background: linear-gradient(rgba(56,57,50,0.5), transparent);
+    background-color: rgb(195,195,193);
+}
+
+.paper {
+    padding: 2;
+    text-align: center;
+}

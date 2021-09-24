@@ -1,0 +1,50 @@
+.sticky-info {
+    display: flex;
+    position: fixed;
+    background-color: rgb(70,71,62);
+    box-shadow: 10px 5px 5px gray;
+    margin-top: 10em;
+    border-radius: 1em;
+    justify-content: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.sticky-info > ul > p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    color: rgb(195,195,193);
+}
+
+.sticky-info > ul > a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    color: rgb(195,195,193);
+    text-decoration: none;
+}
+
+.sticky-info > ul > a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    margin-top: 0.5em;
+    opacity: .5;
+}
+
+
+@media screen and (max-width: 1040px) {
+    .sticky-info > ul > p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sticky-info {
+        margin-right: 1em;
+        margin-left: 1em;
+        position: relative;
+    }
+}

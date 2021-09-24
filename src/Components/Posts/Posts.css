@@ -1,0 +1,35 @@
+.card {
+    margin: 1em 2em;
+    border-radius: 1em;
+    padding:1em 2em;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: rgb(56,57,50);
+    text-shadow: 2px 2px gray;
+    text-decoration: none;
+}
+
+.normalTitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: rgb(56,57,50);
+    text-shadow: 2px 2px gray;
+    text-decoration: none;
+}
+
+.title:hover {
+    text-decoration: underline;
+    
+}
+
+
+.content {
+}
+
+.button {
+    width: 50%;
+    margin-left: 25%;
+}
