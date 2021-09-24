@@ -48,3 +48,9 @@
         position: relative;
     }
 }
+
+@media screen and (max-height: 640px) {
+    .sticky-info {
+        margin-top: 0em;
+    }
+}
